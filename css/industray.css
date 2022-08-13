@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0 !important;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-item{
+    height: 90vh;
+}
+.carousel-item img{
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+background-color: black !important;
+background-position: center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

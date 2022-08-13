@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0 !important;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-overlay {
+    background: url("../asserts/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:40vh;
+    width: 100%;
+    columns: white;
+    
+}
+.main{
+    margin-top: 12rem !important;
+}
+.seemore:hover{
+    background-color: #002046 !important;
+    color: aliceblue !important;
+}
+.header-icons img{
+    height: 4rem;
+}
+.corevalue-icon{
+    background-color: #002046;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: -2rem;
+}
+.corevalue-icon img{
+    height: 4rem;
+}
+.corevalue{
+    width: 90% !important;
+}
+.corevalue p{
+    font-size: 0.8rem !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

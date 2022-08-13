@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WhizzAct</title>
+    <!-- animate js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- MDB -->
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<!-- custom css-->
+<link rel="stylesheet" href="css/index.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- font for h1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@600&display=swap" rel="stylesheet">
+<!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg shadow-0 sticky-top" style="background-color: #212529;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div>
+                <a href="">
+                    <img src="./asserts/logo.png" alt="" style="width: 5rem;">
+                </a>
+            </div>
+            <div class="d-none d-lg-block">
+            <ul class="navbar nav border-0 shadow-0">
+                <li class="nav-item">
+                    <a class="nav-link links fw-semibold " href="">Home</a>
+                </li>
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link  dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                    data-mdb-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu mt-0 rounded" aria-labelledby="navbarDropdown" style="
+                                  
+                                  top: 5rem;
+                                  left: -20rem;
+                                  width: 60rem;
+                                ">
+                    <div class="container ">
+                      <div class="row py-4 mx-auto">
+                        <div class="col-3 service-dropdown ms-2 py-1 rounded border shadow">
+                          <a href="" class="nav-link">
+                          <div class="d-flex justify-content-center align-items-center">
+                            <span class="material-symbols-outlined">
+                              phone_iphone
+                              </span>
+                              <p>Mobile Application</p>
+                          </div>
+                          <div class="px-1 mt-3">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Native Ios App</li>
+                              <li class="list-group-item">Native Android App</li>
+                              <li class="list-group-item">Hybrid apps</li>
+                              <li class="list-group-item">Cross Platfor</li>
+                              <li class="list-group-item">PWA</li>
+                            </ul>
+                          </div>
+                        </a>
+                        </div>
+
+                        <div class="col-4 service-dropdown ms-2 py-1 rounded border shadow">
+                          <a href="" class="nav-link">
+                          <div class="d-flex justify-content-center align-items-center">
+                            <span class="material-symbols-outlined">
+                              language
+                              </span>
+                              <p>Web Application</p>
+                          </div>
+                          <div class="px-1 mt-3">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Native Ios App</li>
+                              <li class="list-group-item">Native Android App</li>
+                              <li class="list-group-item">Hybrid apps</li>
+                              <li class="list-group-item">Cross Platfor</li>
+                              <li class="list-group-item">PWA</li>
+                            </ul>
+                          </div>
+                        </a>
+                        </div>
+
+                        <div class="col-4 service-dropdown ms-2 py-1 rounded border shadow">
+                          <a href="" class="nav-link">
+                          <div class="d-flex justify-content-center align-items-center">
+                            <span class="material-symbols-outlined">
+                              terminal
+                              </span>
+                              <p>Software Development</p>
+                          </div>
+                          <div class="px-1 mt-3">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Native Ios App</li>
+                              <li class="list-group-item">Native Android App</li>
+                              <li class="list-group-item">Hybrid apps</li>
+                              <li class="list-group-item">Cross Platfor</li>
+                              <li class="list-group-item">PWA</li>
+                            </ul>
+                          </div>
+                        </a>
+                        </div>
+                        <!-- second -->
+                        <div class="col-3 service-dropdown ms-2 mt-3 py-1 rounded border shadow">
+                          <a href="" class="nav-link">
+                          <div class="d-flex justify-content-center align-items-center">
+                            <span class="material-symbols-outlined">
+                              data_object
+                              </span>
+                              <p>DevOps</p>
+                          </div>
+                          <div class="px-1 mt-3">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Native Ios App</li>
+                              <li class="list-group-item">Native Android App</li>
+                              <li class="list-group-item">Hybrid apps</li>
+                              <li class="list-group-item">Cross Platfor</li>
+                              <li class="list-group-item">PWA</li>
+                            </ul>
+                          </div>
+                        </a>
+                        </div>
+
+                        <div class="col-4 service-dropdown ms-2 mt-3 py-1 rounded border shadow">
+                          <a href="" class="nav-link">
+                          <div class="d-flex justify-content-center align-items-center">
+                            <span class="material-symbols-outlined">
+                              campaign
+                              </span>
+                              <p>Marketing</p>
+                          </div>
+                          <div class="px-1 mt-3">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Native Ios App</li>
+                              <li class="list-group-item">Native Android App</li>
+                              <li class="list-group-item">Hybrid apps</li>
+                              <li class="list-group-item">Cross Platfor</li>
+                              <li class="list-group-item">PWA</li>
+                            </ul>
+                          </div>
+                        </a>
+                        </div>
+
+                        <div class="col-4 service-dropdown ms-2 mt-3 py-1 rounded border shadow">
+                          <a href="" class="nav-link">
+                          <div class="d-flex justify-content-center align-items-center">
+                            <span class="material-symbols-outlined">
+                              edit
+                              </span>
+                              <p>Graphic Designing</p>
+                          </div>
+                          <div class="px-1 mt-3">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Native Ios App</li>
+                              <li class="list-group-item">Native Android App</li>
+                              <li class="list-group-item">Hybrid apps</li>
+                              <li class="list-group-item">Cross Platfor</li>
+                              <li class="list-group-item">PWA</li>
+                            </ul>
+                          </div>
+                        </a>
+                        </div>
+<!-- 3rd -->
+<div class="col-5 service-dropdown ms-2 mt-3 py-1 rounded border shadow">
+  <a href="" class="nav-link">
+  <div class="d-flex justify-content-center align-items-center">
+    <span class="material-symbols-outlined">
+      cloud
+      </span>
+      <p>Cloud Computing</p>
+  </div>
+  <div class="px-1 mt-3">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Native Ios App</li>
+      <li class="list-group-item">Native Android App</li>
+      <li class="list-group-item">Hybrid apps</li>
+      <li class="list-group-item">Cross Platfor</li>
+      <li class="list-group-item">PWA</li>
+    </ul>
+  </div>
+</a>
+</div>
+
+<div class="col-5 service-dropdown ms-2 mt-3 py-1 rounded border shadow">
+  <a href="" class="nav-link">
+  <div class="d-flex justify-content-center align-items-center">
+    <span class="material-symbols-outlined">
+      format_paint
+      </span>
+      <p>UX/UI Design</p>
+  </div>
+  <div class="px-1 mt-3">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Native Ios App</li>
+      <li class="list-group-item">Native Android App</li>
+      <li class="list-group-item">Hybrid apps</li>
+      <li class="list-group-item">Cross Platfor</li>
+      <li class="list-group-item">PWA</li>
+    </ul>
+  </div>
+</a>
+</div>
+
+
+                      </div>
+                  </div>
+                  </div>
+                  <!-- dropdown -->
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link links " href="whyWhizzact.html">Why WhizzAct</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  links " href="industry.html">Industry</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links " href="">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links " href="">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link   fw-bold portfolio rounded-9" href="">Our PortFolio</a>
+                </li>                                                  
+            </ul>
+        </div>
+        <!-- side bar -->
+        <button class="navbar-toggler d-lg-none btn shadow-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <i class="bi bi-list" style="color: #3419AB;"></i>
+        </button>
+        <div  class="offcanvas offcanvas-end text-bg-dark d-lg-none" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div  class="offcanvas-header bg-white ">
+            <img src="./asserts/logo.png" alt=""  class="w-25">
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-white border-top" >
+            <ul class="navbar-nav justify-content-center flex-grow-1 mx-auto">
+              <li class="nav-item  px-3 rounded">
+                <a class="nav-link active  sidebar-links fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="dropdown  rounded">
+                <a
+                  class="ps-3 mt-1 fw-bold btn  dropdown-toggle shadow-0 w-100 text-start nav-link"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services  
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <div class="row justify-content-center">
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          phone_iphone
+                          </span>
+                      <p class="ms-2">Mobile Application</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          language
+                          </span>
+                      <p class="ms-2">Web Application</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          terminal
+                          </span>
+                      <p class="ms-2">Software Developmen</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          data_object
+                          </span>
+                      <p class="ms-2">Devops Service</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          cloud
+                          </span>
+                      <p class="ms-2">Cloud Computing</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          campaign
+                          </span>
+                      <p class="ms-2">Internet Marketing</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10 border-bottom py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                      <span class="material-symbols-outlined">
+                        edit
+                        </span>
+                      <p class="ms-2">Graphic Designing</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    <div class="col-10  py-2">
+                      <a href="" class="d-flex nav-link side-navlink">
+                        <span class="material-symbols-outlined">
+                          format_paint
+                          </span>
+                      <p class="ms-2">UX/UI Designing</p>
+                    </a>
+                    </div>
+                    <!-- ----- -->
+                    
+
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item  px-3 rounded mt-3">
+                <a class="nav-link active  sidebar-links fw-bold" aria-current="page" href="#">Why WhizzAct</a>
+              </li>
+              <li class="nav-item  px-3 rounded mt-3">
+                <a class="nav-link active  sidebar-links fw-bold" aria-current="page" href="#">Industry</a>
+              </li>
+              <li class="nav-item  px-3 rounded mt-3">
+                <a class="nav-link active  sidebar-links fw-bold" aria-current="page" href="#">Company</a>
+              </li>
+              <li class="nav-item  px-3 rounded mt-3">
+                <a class="nav-link active  sidebar-links fw-bold" aria-current="page" href="#">Contact</a>
+              </li>
+              <button class="btn btn-primary mt-5 fw-bold">Out PortFolio</button> 
+
+            </ul>
+          </div>
+        </div>
+        <!-- side bar -->
+        </div>
+    </nav>
+    <!-- navbar -->
+<!-- header -->
+
+<div class="bg-dark header-bg ">
+<div class="container-md d-flex justify-content-between align-items-center mb-5 header" >
+  <div class="col-12 col-md-6">
+    <p style="color: #707070;">We Create</p>
+    <h2 class="text-white">WebSite For</h2>
+    <h1 class="display-1" style="color:#14b2d5 ;">Professionals</h1>
+    <p class="text-light">Accurate data, a customer-centric approach, and privacy by design make AppsFlyer the attribution platform of choice for the world’s leading </p>
+    <button class="btn shadow-0 mt-3 rounded-5 px-3 text-white contactus"  style="background-color:#3419AB;">
+      Contact Us
+    </button>
+  </div>
+  <div class="col-6 d-none d-md-block">
+    <img src="./asserts/illustrator/header.png" alt="" srcset="" class="img-fluid">
+  </div>
+</div>
+</div>
+<!-- header -->
+
+
+<!-- ******************************************* -->
+<div>
+  <img src="./asserts/patternpad.svg" alt="" class="pattern">
+</div>
+<!--service sections -->
+<div class="container mb-5" style="z-index: 10 !important;">
+<h1 class="text-center">Our Services</h1>
+<p class="text-center">WhizzAct offers you a wide range of solutions that address your
+  IT needs and problems</p>
+  <!-- main -->
+  
+    <!--  -->
+<div class="row mt-3 w-100  justify-content-center mt-5 mx-auto">
+<div class="service-models col-5 col-md-2 text-center border rounded-3 pt-2 pt-md-4">
+    <img src="./asserts/icons/mobile.svg" alt="" style="height: 5rem;">
+    <h4 class="fw-bold fs-6 mt-4 mb-1">Mobile Applicaton</h4>
+    <p>Android, IOS<br> 
+      (Native or Hybrid)</p>
+</div>
+<!-- ---------- -->
+<div class="service-models col-5 col-md-2 text-center border rounded-3 pt-2 pt-md-4 ms-3">
+  <img src="./asserts/icons/web-development.svg" alt="" style="height: 5rem;">
+  <h4 class="fw-bold fs-6 mt-4 mb-1">Web Applicaton</h4>
+  <p>CRM,HRMS,<br>
+  E-Commerce etc</p>
+</div>
+<!-- ---------- -->
+<div class="service-models col-2 text-center border rounded-3 mt-3 mt-md-0 pt-2 pt-md-4 ms-md-3" >
+  <img src="./asserts/icons/web-configuration.svg" alt="" style="height: 5rem;">
+  <h4 class="fw-bold fs-6 mt-4 mb-1">Software Developmen</h4>
+  <p>Support and Sell</p>
+</div>
+<!-- ---------- -->
+<div class="service-models col-2 text-center border rounded-3 mt-3 mt-md-0 pt-2 pt-md-4 ms-3" >
+  <img src="./asserts/icons/infinity.svg" alt="" style="height: 5rem;">
+  <h4 class="fw-bold fs-6 mt-4 mb-1">DevOps Services</h4>
+  <p>Coding, Building, Testing,
+    Packaging... etc
+   </p>
+</div>
+<!-- ---------- -->
+</div>
+<!-- first -->
+<!-- second -->
+<div class="row mt-3 w-100 justify-content-center mx-auto">
+  <div class="service-models col-2 text-center border rounded-3 pt-2 pt-md-4">
+    <img src="./asserts/icons/cloud-computing.svg" alt="" style="height: 5rem;">
+    <h4 class="fw-bold fs-6 mt-4 mb-1">Cloud Computing</h4>
+      <p>Cloud Consulting & Planning,
+        Build, Deploy & Migrate</p>
+  </div>
+  <!-- ---------- -->
+  <div class="service-models col-2 text-center border rounded-3 pt-2 pt-md-4 ms-3">
+    <img src="./asserts/icons/marketing.svg" alt="" style="height: 5rem;">
+    <h4 class="fw-bold fs-6 mt-4 mb-1">Internet Marketing</h4>
+    <p>SEO, Search Engine Marketing,
+      SMO etc</p>
+  </div>
+  <!-- ---------- -->
+  <div class="service-models col-2 text-center border rounded-3 mt-3 mt-md-0 pt-2 pt-md-4 ms-md-3" >
+    <img src="./asserts/icons/pen-tool.svg" alt="" style="height: 5rem;">
+    <h4 class="fw-bold fs-6 mt-4 mb-1">Graphics Designing</h4>
+    <p>Typography, Page layout,
+      Printmaking, Strategy</p>
+  </div>
+  <!-- ---------- -->
+  <div class="service-models col-2 text-center border rounded-3 mt-3 mt-md-0 pt-2 pt-md-4 ms-3" >
+    <img src="./asserts/icons/painting.svg" alt="" style="height: 5rem;">
+    <h4 class="fw-bold fs-6 mt-4 mb-1">UX/UI Design</h4>
+    <p>Rearch, UX Design, 
+      UI Design, Brand Design</p>
+  </div>
+  <!-- ---------- -->
+  </div>
+  <!-- end -->
+</div>
+<!--service sections -->
+<!-- ******************************** -->
+<!-- engage sec -->
+<div class="container my-5">
+  <h1 class="text-center my-5 pt-5">How We Engage with Clients</h1>
+  <!-- main content -->
+  <div class="row px-2 d-flex justify-content-between justify-content-md-center align-items-center engage-content">
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/meeting.svg" class="d-md-none" alt="" style="width:6rem ;">
+      <img src="./asserts/illustrator/meeting.jpg" data-aos="fade-right" alt="" class="img-fluid d-none d-md-block d-none d-md-block">
+    </div>
+    <div class="ms-2  col-8  col-md-5">
+      <span class="mt-1">1</span>
+      <h2>Meeting</h2>
+      <p class="col-md-10">Let us meet over a cup of coffee
+        to discuss about health and little
+        business talk</p>
+    </div>
+  </div>
+  <!-- ------- -->
+    <div class="row px-2 d-flex  justify-content-md-center align-items-center engage-content">
+    <div class="col-8  col-md-5">
+      <span class="">2</span>
+      <h2>Planning</h2>
+      <p class="col-md-10">To analyze the requirement
+        through indepth research with 
+        the help of brilliant tools</p>
+    </div>
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/planning-process.svg" class="d-md-none" alt="" style="width:6rem ;">
+
+      <img src="./asserts/illustrator/planning.jpg" data-aos="fade-left" alt="" class="img-fluid d-none d-md-block">
+    </div>
+  </div>
+  <!-- -------------- -->
+    <div class="row px-2 d-flex justify-content-between justify-content-md-center align-items-center engage-content">
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/design-layout.svg" class="d-md-none" alt="" style="width:6rem ;">
+
+      <img src="./asserts/illustrator/ui.jpg" data-aos="fade-right" alt="" class="img-fluid d-none d-md-block">
+    </div>
+    <div class="ms-2  col-8  col-md-5">
+      <span class="">3</span>
+      <h2>UX/UI Design</h2>
+      <p class="col-md-10">To draft the design that
+        is related to the research 
+        in order to check the feasibility </p>
+    </div>
+  </div>
+  <!-- ------- -->
+    <div class="row px-2 d-flex justify-content-md-center align-items-center engage-content">
+    <div class="ms-2  col-8  col-md-5">
+      <span class="">4</span>
+      <h2>Development</h2>
+      <p class="col-md-10">Now,our development team 
+        starts developing the solution
+        according to design</p>
+    </div>
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/development.svg" class="d-md-none" alt="" style="width:6rem ;">
+
+      <img src="./asserts/illustrator/development.jpg" data-aos="fade-left" alt="" class="img-fluid d-none d-md-block">
+    </div>
+  </div>
+  <!-- -------------- -->
+    <div class="row px-2 d-flex justify-content-between justify-content-md-center align-items-center engage-content">
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/testing-features.svg" class="d-md-none" alt="" style="width:6rem ;">
+
+      <img src="./asserts/illustrator/testing.jpg" data-aos="fade-right" alt="" class="img-fluid d-none d-md-block">
+    </div>
+    <div class="ms-2  col-8  col-md-5">
+      <span class="">5</span>
+      <h2>Testing</h2>
+      <p class="col-md-10">In testing plhase we test every 
+        component to make sure that
+        our solution fits the requiremeny</p>
+    </div>
+  </div>
+  <!-- ------- -->
+    <div class="row px-2 d-flex justify-content-md-center align-items-center engage-content">
+    <div class="ms-2  col-8  col-md-5">
+      <span class="">6</span>
+      <h2>Support</h2>
+      <p class="col-md-10">Call our team for an instant solution
+        to all your business problems</p>
+    </div>
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/support.svg" class="d-md-none" alt="" style="width:6rem ;">
+
+      <img src="./asserts/illustrator/support.jpg" data-aos="fade-left" alt="" class="img-fluid d-none d-md-block">
+    </div>
+  </div>
+  <!-- -------------- -->
+    <div class="row px-2 d-flex justify-content-between justify-content-md-center align-items-center engage-content">
+    <div class="col-md-5 col-3" >
+      <img src="./asserts/icons/celebrate.svg" class="d-md-none" alt="" style="width:6rem ;">
+
+      <img src="./asserts/illustrator/celebrate.jpg" data-aos="fade-right" alt="" class="img-fluid d-none d-md-block">
+    </div>
+    <div class="ms-2  col-8  col-md-5">
+      <span class="">7</span>
+      <h2>Celebrate</h2>
+      <p class="col-md-10">We make delevery for the solutionand assist our clients 
+        to control and administer solution</p>
+    </div>
+  </div>
+  <!-- ----------------------- -->
+</div>
+<!-- engage sec -->
+<!-- ***************************** -->
+<!-- promises -->
+<div class="container mt-5">
+<div class="d-block d-md-flex justify-content-between align-items-center"> 
+<div class="col-12 col-md-7">
+  <p>Guaranteed Customer Satisfaction</p>
+  <h1 class="fw-bold fs-1" style="color:#3419AB ;">We Promise. We Deliver.</h1>
+  <p><span class="fw-semibold col-8">Have an idea?</span>
+    Work with us and see how it goes. We promise to go the extra mile for every project that we take onboard.
+  </p>
+  <p class="fw-semibold mt-3">The first 7 days are on us with ZERO upfront investment.</p>
+</div>
+<div>
+<img src="./asserts/animations/73195-business-partnership-contract-handshake.gif" alt="" class="img-fluid">
+</div>
+</div>
+</div>
+<!-- promises -->
+<!-- Indrustries We Serve-->
+<div class="container">
+  <h1>Indrustries We Serve</h1>
+  <div class="row mt-5 justify-content-between industries-main mx-auto">
+    <div class="col industry-icon">
+      <img src="./asserts/icons/icons8-ecommerce-64.png" alt="" class="rounded p-2" data-mdb-toggle="tooltip" title="Ecommerce" style="background-color:#1b11d4 ;">
+    </div>
+    <div class="col industry-icon">
+      <img src="./asserts/icons/icons8-e-learning-100.png" alt="" class="rounded p-2" data-mdb-toggle="tooltip" title="E-Learning" style="background-color:#11d428 ;">
+    </div>
+    <div class="col industry-icon">
+      <img src="./asserts/icons/icons8-heart-health-100.png" alt="" class="rounded p-2" data-mdb-toggle="tooltip" title="HealthCare" style="background-color:#d41111 ;">
+    </div>
+    <div class="col industry-icon">
+      <img src="./asserts/icons/icons8-real-estate-100.png" alt="" class="rounded p-2  mt-2 mat-md-0" data-mdb-toggle="tooltip" title="Real Estate" style="background-color:#a311d4 ;">
+    </div>
+    <div class="col industry-icon">
+      <img src="./asserts/icons/icons8-door-to-door-delivery-100.png" alt="" class="rounded p-2 mt-2 mat-md-0" data-mdb-toggle="tooltip" title="Logistice" style="background-color:#d48611 ;">
+    </div>
+    <div class="col industry-icon">
+      <img src="./asserts/icons/icons8-omnichannel-64.png" alt="" class="rounded p-2 mt-2 mat-md-0" data-mdb-toggle="tooltip" title="Social Network" style="background-color:#078e9f ;">
+    </div>
+  </div>
+</div>
+<!-- Indrustries We Serve-->
+<!-- ***************************************** -->
+<!-- testimonals -->
+<div class="container-fluid my-5">
+  <h1 class="text-center">What Our CLient Says</h1>
+  <div id="owl-demo" class="owl-carousel owl-theme my-5 row justify-content-center">
+    <div class=" testimonal border rounded px-3 py-3 text-center">
+      <img src="https://lh3.googleusercontent.com/a-/AFdZucrZlUeScbodYFyhGYGA74FU3w50P_dvnYV9Zv45CQ=s360-p-rw-no" 
+      alt="" class="img-fluid rounded-circle mx-auto">
+      <h5 class="mt-3">Shalil Jaiswar</h5>
+      <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, impedit ea quas dolores non dolorem. Repellat aspernatur sunt ipsam saepe repudiandae perferendis, at quo minus fugiat veritatis quod veniam asperiores!</p>
+    </div>
+    <!-- ----- -->
+    <div class=" testimonal border rounded px-3 py-3 text-center mt-2 mt-md-0 ms-md-3">
+      <img src="https://avatars.githubusercontent.com/u/67318025?v=4" 
+      alt="" class="img-fluid rounded-circle mx-auto">
+      <h5 class="mt-3">Juned Pothawala</h5>
+      <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, impedit ea quas dolores non dolorem. Repellat aspernatur sunt ipsam saepe repudiandae perferendis,</p>
+    </div>
+     <!-- ----- -->
+     
+</div>
+</div>
+<!-- testimonals -->
+<!-- our client -->
+<div class="container ">
+  <h1 class="text-center">Our Partners / Our Clients</h1>
+  <div class="slider my-3">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- our client -->
+<!-- contact us -->
+<div class="contact py-5">
+  <div class="container contact-main py-3 px-3">
+    <div class="row ">
+      <div class="col-12  col-lg-4 my-auto">
+        <h2 class="">Get in Touch</h2>
+        <div class="mt-3">
+          <div class="form-outline">
+            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Name</label>
+          </div>
+          <div class="form-outline mt-3">
+            <input type="email" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Email</label>
+          </div>
+          <div class="form-outline mt-3">
+            <input type="tel" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Phone</label>
+          </div>
+          <div class="form-outline mt-3">
+            <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+            <label class="form-label" for="textAreaExample">Message</label>
+          </div>
+          <button class="text-white d-flex align-items-center px-3 py-1 rounded border-0 mt-2 btn btn-primary shadow-0">Send<span class="material-symbols-outlined ms-1">
+            send
+            </span></button>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6  col-lg-4 ">
+        <div class="mt-5">
+        <iframe class="rounded map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2261565427225!2d72.88856745633133!3d19.053791688508056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19f52138e044c3d8!2sWhizzAct%20Solutions!5e0!3m2!1sen!2sin!4v1660140520741!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+      <div class="col-12  col-sm-5 col-lg-2 mt-5">
+        <div>
+        <h4 class="align-items-center d-flex justify-content-start "><span class="material-symbols-outlined me-2 ">
+          call
+          </span>Call Us</h4>
+          <p style="color: rgb(141, 141, 141);">+91-82681 08343 / +91-74003 92271</p>
+        </div>
+        <div class="mt-3">
+          <h4 class="align-items-center d-flex justify-content-start"><span class="material-symbols-outlined me-2">
+            mail
+            </span>Mail us</h4>
+            <p style="color: rgb(141, 141, 141);">hello@whizzactsolutions.com</p>
+          </div>
+          <div class="mt-3">
+            <h4 class="align-items-center d-flex justify-content-start  "><span class="material-symbols-outlined me-2">
+              location_on
+              </span>Find us</h4>
+              <p class="" style="color: rgb(141, 141, 141);">3, Kumbharwada, S.T. Road, Jai Mata Di Complex, Chembur, Mumbai, Maharashtra India - 400071.</p>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact us -->
+
+  <!-- footer -->
+  <div class="bg-dark footer-bg">
+  <div class="footer container px-4 py-3" >
+    <div class="row py-3">
+      <div class="col-12 col-md-4">
+        <img src="./asserts/logo.png" alt="" style="width: 5rem;">
+        <p class="mt-3" style="color: rgb(141, 141, 141);">WhizzAct aims to deliver the supreme service at an effective cost, ensuring a complete customer satisfaction. Emphatic use of latest tools and technology, helps our clients to grow and promote their businesses worldwide.</p>
+      <div class="d-flex justify-content-between align-items-center col-6 mx-auto mt-5">
+        
+        <a class="btn btn-primary border-0  shadow-0" style="background-color: #3b5998;" href="#!" role="button">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a class="btn btn-primary border-0  shadow-0" style="background-color: #dd4b39;" href="#!" role="button">
+          <i class="bi bi-google"></i>
+        </a>
+        <a class="btn btn-primary border-0  shadow-0" style="background-color: #c8121e;" href="#!" role="button">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a class="btn btn-primary border-0  shadow-0" style="background-color: #1b11d4;" href="#!" role="button">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+      </div>
+      <div class="col-12 col-md-3 ms-2 mt-3">
+        <h3>Our Product</h3>
+        <p class="mt-3 ">Print All Results</p>
+        <p>Competemantra</p>
+        <p>GST Billing</p>
+        <p>Transport Billing</p>
+      </div>
+      <div class=" col-12 col-md-4 mt-3">
+        <h3>Subscribe</h3>
+        <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+        <div class="form-outline form-white mt-3">
+          <input type="Email" id="formWhite" class="form-control" />
+          <label class="form-label border-0" for="formWhite" >Email</label>
+        </div>
+        <div class="justify-content-end d-flex w-100">
+        <button type="button" class="btn btn-outline-light mt-1  d-flex" data-mdb-ripple-color="dark">
+          <span class="material-symbols-outlined">
+            send
+            </span>
+        </button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- footer -->
+
+<!-- boostrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- mdb -->
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js"
+></script>
+<!-- animate js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- custom js -->
+<script src="./js/index.js"></script>
+  </body>
+</html>
