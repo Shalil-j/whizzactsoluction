@@ -30,53 +30,86 @@
   </head>
   <body>
 <!-- header -->
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div class="bg-overlay">
+	<div class="container d-flex justify-content-start">
+        <div class="col-4  px-4 py-3 rounded-2 main text-dark bg-white shadow ">
+          <p>About</p>  
+          <h1 style="color: #00306a;">Industray</h1>
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quaerat alias inventore saepe assumenda excepturi est incidunt nisi nemo doloremque molestias? Dolor aliquam asperiores omnis modi beatae. Labore, id ipsam.</p>
+        </div>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="asserts/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="asserts/markus-winkler-bfuy8aRCRt4-unsplash.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="asserts/mech-mind-sTzb90A1Abs-unsplash.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="asserts/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>4d slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <i class="bi bi-chevron-left"></i>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <i class="bi bi-chevron-right"></i>
-    </button>
-  </div>
+</div>
   <!-- header -->
+  <!-- industry -->
+<div class="container my-3">
+  <div class="row industry justify-content-center">
+    <div class="col-2  py-2 rounded border">
+      <div class="ind-bg  rounded d-flex justify-content-center align-items-center mx-auto overflow-hidden">
+        <img src="./asserts/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg" alt="" class=" card-image rounded">
+        <img src="./asserts/icons/icons8-read-online-100.png" alt="" class="img-fluid card-icon ">
+      </div>
+      <div>
+        <h2 class="text-center my-2">Education</h2>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-2  py-2 rounded border ms-4">
+      <div class="ind-bg  rounded d-flex justify-content-center align-items-center mx-auto overflow-hidden">
+        <img src="./asserts/markus-winkler-bfuy8aRCRt4-unsplash.jpg" alt="" class=" card-image rounded">
+        <img src="./asserts/icons/icons8-shop-64.png" alt="" class="img-fluid card-icon ">
+      </div>
+      <div>
+        <h2 class="text-center my-2">Retail</h2>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-2  py-2 rounded border ms-4">
+      <div class="ind-bg  rounded d-flex justify-content-center align-items-center mx-auto overflow-hidden">
+        <img src="./asserts/mech-mind-sTzb90A1Abs-unsplash.jpg" alt="" class=" card-image rounded">
+        <img src="./asserts/icons/icons8-manufacturing-64.png" alt="" class="img-fluid card-icon ">
+      </div>
+      <div>
+        <h2 class="text-center my-2">Manufacturing</h2>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-2  py-2 rounded border ms-4">
+      <div class="ind-bg  rounded d-flex justify-content-center align-items-center mx-auto overflow-hidden">
+        <img src="./asserts/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg" alt="" class=" card-image rounded">
+        <img src="./asserts/icons/icons8-medical-app-68 (1).png" alt="" class="img-fluid card-icon ">
+      </div>
+      <div>
+        <h2 class="text-center my-2">Healthcare & Pharma</h2>
+      </div>
+    </div>
+    <!--  -->
+  </div>
+</div>
+  <!-- industry -->
+<!-- education -->
+<div class="container mt-5">
+  <div class="row rounded-5 px-2 py-2 align-items-center d-flex ind-content" style="background-color: antiquewhite;">
+    <div class="col-6" style="height: 20rem;">
+      <img src="./asserts/illustrator/MyApril8 [Converted].png" alt="" class="img-fluid">
+    </div>
+    <div class="col-6">
+      <h1>Education Sector</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius deleniti, a consequatur dolores rerum placeat tempora repellendus nam distinctio maxime nobis voluptatum atque labore molestias inventore molestiae eos assumenda?</p>
+    </div>
+  </div>
 
+  <div class="row rounded-5 px-5 py-2 align-items-center d-flex ind-content mt-5" style="background-color: antiquewhite;margin-top: 10rem !important;">
+    <div class="col-6">
+      <h1>Manufacturing Sector</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius deleniti, a consequatur dolores rerum placeat tempora repellendus nam distinctio maxime nobis voluptatum atque labore molestias inventore molestiae eos assumenda?</p>
+    </div>
+    <div class="col-6" style="height: 20rem;">
+      <img src="./asserts/illustrator/29750 [Converted].png" alt="" class="img-fluid" style="margin-top: 0;">
+    </div>
+  </div>
+</div>
 
-
+<!-- education -->
 
     <!-- boostrap -->
     <script

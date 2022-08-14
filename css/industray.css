@@ -33,23 +33,64 @@ h5{
 a{
     font-family: 'Poppins', sans-serif;
 }
-.carousel-item{
-    height: 90vh;
+
+
+.bg-overlay {
+    background: url("../asserts/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:40vh;
+    width: 100%;
 }
-.carousel-item img{
-background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
-background-color: black !important;
-background-position: center !important;
-background-size: cover !important;
+.main{
+    margin-top: 10rem;
+}
+.industry{
+    margin-top: 12rem !important;
+}
+.card-image{
 background-repeat: no-repeat !important;
+background-size: cover !important;
+background-position: center center !important;
+height: 100% !important;
+width: auto !important;
+-webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+opacity: 0%;
 }
-
-
+.card-icon{
+    position: absolute;
+    height: 5rem !important;
+}
+.ind-bg{
+width: 12rem;
+height: 12rem;
+}
+.col-2 h2{
+    color: #00306e;
+    font-size: small;
+    font-weight: bold;
+}
+.card-image:hover{
+   opacity: 50%; 
+}
+.ind-content img{
+    height: 25rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
