@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0 !important;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0!important;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    font-size: 0.9rem !important;
+    color: rgb(206, 206, 206) !important;
+}
+.contact-form input{
+    border-bottom: 3px rgb(146, 146, 146) solid !important;
+}
+.contact-form input:focus{
+    border-bottom: 3px #3419AB solid !important;
+    outline: none;
+    background-color: transparent;
+}
+.contact-form textarea{
+    border-bottom: 3px rgb(146, 146, 146) solid !important;
+}
+.contact-form textarea:focus{
+    border-bottom: 3px #3419AB solid !important;
+    outline: none;
+}
+.contact-form label{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #3419AB;
+}

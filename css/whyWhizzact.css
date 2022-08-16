@@ -34,40 +34,24 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 
-.bg-overlay {
-    background: url("../asserts/bg-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height:40vh;
-    width: 100%;
-    columns: white;
-    
-}
-.main{
-    margin-top: 12rem !important;
-}
-.seemore:hover{
-    background-color: #002046 !important;
-    color: aliceblue !important;
-}
-.header-icons img{
+.header-icon img{
     height: 4rem;
 }
-.corevalue-icon{
-    background-color: #002046;
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-top: -2rem;
+.header-icon p{
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
 }
-.corevalue-icon img{
-    height: 4rem;
+.work-patter p{
+    color: white;
+    font-weight: 200;
+    font-size: 1.5rem;
 }
-.corevalue{
-    width: 90% !important;
-}
-.corevalue p{
-    font-size: 0.8rem !important;
+.work-patter h3{
+    /* color: aqua !important; */
+    font-size: 3rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #14b2d5;
+    font-style: italic;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
