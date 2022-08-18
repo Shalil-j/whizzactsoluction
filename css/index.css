@@ -38,12 +38,6 @@ a{
   transition-duration: 0.3s;
   top: 0;
 }
-.nav-link{
-
-    /* font-weight:  !important; */
-
-}
-
 .links {
     display: inline-block;
     position: relative;
@@ -128,6 +122,7 @@ background-color: white !important;
 }
 .tools svg{
   height: 3rem !important;
+  fill: rgb(187, 187, 187);
 }
 .service-dropdown a:hover::before {
   bottom: 0;
@@ -137,9 +132,6 @@ background-color: white !important;
   list-style-type: none;
   font-size: small;
 }
-  .service-models svg:hover{
-    fill: #1BB0D4 !important;
-  }
   .service-models:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px!important;
   }
@@ -230,14 +222,6 @@ background-color: white !important;
 }
 /* contact */
 
-.contact-main{
-  background: rgba( 255, 255, 255, 0.35 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
 .footer-bg{
   border-top-left-radius: 4rem !important;
   border-top-right-radius: 4rem !important;
@@ -288,17 +272,50 @@ background-color: white !important;
 .industries p{
   font-size: larger;
 }
+.map{
+  height: 25rem !important;
+}
+.contact{
+  position: absolute;
+  margin-top: -23rem;
+  right: 5rem;
+  transition: 0.5 ease-in-out;
+}
+.contact button{
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
+  
+}
+.contact button:hover{
+  background-color: #3419AB;
+  color: white;
+}
+.contact input{
+  border: 2px rgb(155, 155, 155) solid;
+}
+.contact textarea{
+  border: 2px rgb(155, 155, 155) solid;
+}
+.contact input:focus{
+  border-color: #3419AB !important;
+}
+.contact textarea:focus{
+  border-color: #3419AB !important;
 
-
+}
 @media only screen and (max-width: 600px) {
   .header{
     height: 100vh;
-    position: relative !important;
+    /* position: relative !important; */
     background-color: #040014;
     overflow-x: hidden;
   }
   .header h1{
-    font-size: 4rem !important;
+    font-size: 3.2rem !important;
+  }
+  .header p{
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
   }
   .service-models{
     width: 10rem !important;
@@ -314,6 +331,17 @@ background-color: white !important;
     .contact-main{
       width: 90% !important;
     }
+    .contact{
+      position:  relative !important;
+      margin-top: 5rem;
+      z-index: 5;
+      left: 0;
+      top: 0;
+      margin-top: 0;
+    }
+    .service-container{
+      margin-top: 44rem !important;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
@@ -328,10 +356,7 @@ background-color: white !important;
     height: 15rem !important;
     transition-duration: 0.3s;
      }
-     .map{
-      width: 300px !important;
-      height: 350px !important;
-    }
+
     .header{
       height: 80vh !important;
     }
@@ -340,7 +365,6 @@ background-color: white !important;
       
     }
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -355,17 +379,17 @@ background-color: white !important;
     .engage-content img{
       height: 20rem;
     }
-    .map{
-      width: 400px !important;
-      height: 400px !important;
-    }
+
     .header{
       height: 100vh !important;
     }
     .header h1{
     font-size: 8rem !important;
-      -webkit-text-stroke:2px #14b2d5 !important ;
+      -webkit-text-stroke:0.2rem #14b2d5 !important ;
       color: transparent !important;
+    }
+    .service-container{
+      margin-top: 5rem;
     }
 }
 

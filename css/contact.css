@@ -33,6 +33,13 @@ h5{
 a{
     font-family: 'Poppins', sans-serif;
 }
+.bg{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    
+}
 .links{
     font-size: 0.9rem !important;
     color: rgb(206, 206, 206) !important;
@@ -56,4 +63,7 @@ a{
     font-size: 0.9rem;
     font-weight: 500;
     color: #3419AB;
+}
+.map{
+    width: 64vw;
 }

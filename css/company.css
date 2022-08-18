@@ -33,101 +33,64 @@ h5{
 a{
     font-family: 'Poppins', sans-serif;
 }
-.background{
-position: relative;
+.header{
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+  height: 100vh;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
 }
-.bg{
-    /* position: fixed !important; */
-    height: 120rem !important;
-    z-index: 1;
+.header-content h1{
+  font-size: 5rem;
+  color: #14b2d5;
 }
-.main-content{
-    z-index: 10;
-    position: absolute;
-    top: 5rem;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 100%;
+.header-content p{
+  color: rgb(181, 181, 181);
 }
-.profile {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+/* ***** */
+.accordion-body{
+  background-color: #161616 !important;
+  color: white;
+}
+
+.accordion-button:focus{
+  outline: none !important;
+  box-shadow: none;
+}
+.accordion-button{
+background-color: #161616 !important;
+color: transparent !important;
+font-size: 3rem !important;
+color: #093a45 !important;
+transition: 0.5s ease-in-out;
+}
+/* .accordion{
+  --bs-accordion-bg=none;
+} */
+.accordion-button:focus {
+color: #1ea4c2 !important;
+} 
+.accordion-button:hover{
+color: #1ea4c2 !important;
+}
+.accordion-button:active{
+  color: #1ea4c2 !important;
   }
-  
-  .profile .box {
-    position: relative;
-    width: 18rem;
-    height: 18rem;
-    margin: 4rem;
-  }
-  
-  .profile .box:hover .imgBox {
-    transform: translate(-2rem, -2rem);
-  }
-  
-  .profile .box:hover .content {
-    transform: translate(2rem, 2rem);
-  }
-  
-  .imgBox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .imgBox img {
-    width: 18rem;
-    height: 18rem;
-    object-fit: cover;
-    resize: both;
-  }
-  
-  .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0.2rem;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-    z-index: 1;
-    align-items: flex-end;
-    text-align: center;
-    transition: 0.5s ease-in-out;
-  }
-  
-  .content h2 {
-    display: block;
-    font-size: 1.2rem;
-    color: #111;
-    font-weight: 500;
-    line-height: 2rem;
-    letter-spacing: 1px;
-  }
-  
-  .content span {
-    color: #555;
-    font-size: 0.8rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-  }
-  
-  @media (max-width: 600px) {
-    .profile .box:hover .content {
-      transform: translate(0, 3.5rem);
-    }
-    .profile .box:hover .imgBox {
-      transform: translate(0, -3.5rem);
-    }
-  }
+.team h1{
+  font-size: 7rem;
+  background: -webkit-linear-gradient(50deg, #5bdbf8 30%, #ffffff 40%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: #161616;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: rgba(0,0,0,.125) !important;
+}
+.team-person{
+  width: 13rem !important;
+  height: 13rem !important;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
