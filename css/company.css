@@ -33,6 +33,82 @@ h5{
 a{
     font-family: 'Poppins', sans-serif;
 }
+.navbar{
+  z-index: 100;
+  transition-duration: 0.3s;
+  top: 0;
+}
+.links {
+    display: inline-block;
+    position: relative;
+    font-size: 1rem !important;
+    background-color: transparent !important;
+  }
+
+
+  .service-items span{
+    font-size: 2.5rem;
+    color: #3419AB !important;
+  }
+  .service-items p{
+    font-size: 1rem;
+    color: #3419AB !important;
+    
+
+  }
+.dropdown-menu{
+background-color: white !important;
+}
+
+  .links:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #3419AB;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .links:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .portfolio:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: #3419AB;
+  }
+  .contactus:hover{
+    background-color: #200f6c !important;
+  }
+.service-dropdown a::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.145);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+.custom-links:hover{
+  color: #3419AB !important;
+}
+.tools svg{
+  height: 3rem !important;
+  fill: rgb(187, 187, 187);
+}
+.service-dropdown a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+.service-dropdown li{
+  list-style-type: none;
+  font-size: small;
+}
 .header{
   background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
   height: 100vh;

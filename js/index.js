@@ -1,5 +1,4 @@
 AOS.init();
-
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
@@ -11,8 +10,6 @@ $(document).ready(function(){
             $(".service-link").removeClass('text-white'); 
             $(".links").addClass('text-black'); 
             $(".links").removeClass('text-white');    
-
-
         }
         else{
             $(".navbar-expand-lg").addClass('shadow-0');
@@ -27,3 +24,4 @@ $(document).ready(function(){
 
     })
 })
+

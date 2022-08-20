@@ -303,6 +303,7 @@ background-color: white !important;
   border-color: #3419AB !important;
 
 }
+/* ----------- */
 @media only screen and (max-width: 600px) {
   .header{
     height: 100vh;
