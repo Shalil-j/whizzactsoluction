@@ -143,3 +143,18 @@ a{
 .map{
     width: 64vw;
 }
+@media only screen and (max-width: 600px) {
+  .map{
+    width: 93vw;
+}
+.contact-links{
+  font-size: 0.8rem !important;
+  color: rgb(206, 206, 206) !important;
+}
+}
+@media only screen and (min-width: 600px) {
+  .contact-links{
+    font-size: 0.8rem !important;
+    color: rgb(206, 206, 206) !important;
+  }
+}

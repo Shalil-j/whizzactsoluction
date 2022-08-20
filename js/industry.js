@@ -1,23 +1,24 @@
 $("#medical").click(function() {
     $('html,body').animate({
-        scrollTop: $(".medical-div").offset().top},
-        'slow');
+        scrollTop: $("#medical-div").offset().top-100},
+        '1000');
 });
 $("#manif").click(function() {
     $('html,body').animate({
-        scrollTop: $(".manifacturing-div").offset().top},
+        scrollTop: $("#manif-div").offset().top-100},
         'slow');
 });
 $("#education").click(function() {
     $('html,body').animate({
-        scrollTop: $(".education-div").offset().top},
+        scrollTop: $("#education-div").offset().top-100},
         'slow');
 });
 $("#retailer").click(function() {
     $('html,body').animate({
-        scrollTop: $(".retailer-div").offset().top},
+        scrollTop: $("#retailer-div").offset().top-100},
         'slow');
 });
+
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();

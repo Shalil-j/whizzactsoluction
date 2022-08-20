@@ -129,52 +129,118 @@ a{
     height: 1rem;
     width: 100%;
 }
-.industry-icons{
-    width: 11rem !important;
-    height: 11rem !important;
-}
 .industry-icons img{
     height: 5rem;
 }
 .industry-icons p{
-    color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: 900 !important;
 }
-.industry-img{
-    width: 25rem;
-    height: 25rem ;
-    margin: auto;
-    overflow: hidden;
+
+.industry-image img{
+  max-width: 100%;
+    max-height: 100%;
+object-fit: cover;
 }
-.industry-img img{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    object-fit: cover !important;
-    max-width: 100%;
-    height: 25rem;
-}
-.industry-content h3{
-    font-size: 5rem !important;
-    color: #fff;
+.industry-content h1{
+  color: aliceblue !important;
 }
 .industry-content p{
-    color: rgb(214, 214, 214);
+  color: rgb(217, 217, 217);
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
+  .header-sec h1{
+    font-size: 4.5rem;
+  }
+  .industry-icons{
+    width: 8rem !important;
+    height: 8rem !important;
 }
-
+.industry-icons img{
+  height: 4rem;
+}
+.industry-icons p{
+  font-size: 0.8rem;
+  color: black;
+}
+.industry-image{
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+}
+.industry-content h1{
+  font-size: 2rem !important;
+  color: aliceblue !important;
+}
+.industry-image img{
+  height: 20rem;
+}
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .industry-icons{
+    width: 8rem !important;
+    height: 8rem !important;
+}
+.industry-icons img{
+  margin-bottom: 0;
+  height: 4rem !important;
+}
+.industry-icons p{
+  font-size: 0.8rem;
+}
+  .industry-content h1{
+    font-size: 2.5rem !important;
+  }
+  .industry-image{
+    width: 18rem;
+    height: 18rem;
+    overflow: hidden;
+  }
+  .industry-image img{
+    height: 18rem;
+  }
+  .industry-icons img{
+    height: 5rem;
+  }
 
+
+
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .industry-icons{
+    width: 11rem !important;
+    height: 11rem !important;
+}
+  .industry-content h1{
+  font-size: 4rem !important;
+}
+.industry-image{
+  width: 23rem;
+  height: 23rem;
+  overflow: hidden;
+}
+.industry-image img{
+  height: 23rem;
+}
+.industry-icons p{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .industry-content h1{
+    font-size: 5rem !important;
+  }
+}
